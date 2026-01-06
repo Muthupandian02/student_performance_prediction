@@ -1,0 +1,12 @@
+[2026-01-05 10:53:10,277] line: 97 _internal.py  - WARNING -  * Debugger is active!
+[2026-01-05 10:53:10,282] line: 97 _internal.py  - INFO -  * Debugger PIN: 337-079-855
+[2026-01-05 10:53:51,374] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:53:51] "[33mGET /home HTTP/1.1[0m" 404 -
+[2026-01-05 10:53:51,517] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:53:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-01-05 10:54:03,580] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:03] "GET / HTTP/1.1" 200 -
+[2026-01-05 10:54:16,408] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:16] "GET /predictdata HTTP/1.1" 200 -
+[2026-01-05 10:54:22,382] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:22] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2026-01-05 10:54:22,586] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:22] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2026-01-05 10:54:22,603] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:22] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2026-01-05 10:54:22,628] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:22] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=671H0dSZ67HU9rfBrOkR HTTP/1.1" 200 -
+[2026-01-05 10:54:22,671] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 10:54:22] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2026-01-05 10:55:24,531] line: 97 _internal.py  - INFO -  * Detected change in 'D:\\Mlops\\src\\pipeline\\predict_pipeline.py', reloading

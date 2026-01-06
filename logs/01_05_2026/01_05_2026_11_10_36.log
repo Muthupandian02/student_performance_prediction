@@ -1,0 +1,7 @@
+[2026-01-05 11:10:37,696] line: 97 _internal.py  - WARNING -  * Debugger is active!
+[2026-01-05 11:10:37,701] line: 97 _internal.py  - INFO -  * Debugger PIN: 337-079-855
+[2026-01-05 11:11:03,923] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:11:03] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2026-01-05 11:11:04,053] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:11:04] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-01-05 11:11:04,083] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:11:04] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-01-05 11:11:04,109] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:11:04] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=8CQRmWEeiyNQSgqFeGui HTTP/1.1" 200 -
+[2026-01-05 11:14:28,690] line: 97 _internal.py  - INFO -  * Detected change in 'D:\\Mlops\\src\\pipeline\\predict_pipeline.py', reloading

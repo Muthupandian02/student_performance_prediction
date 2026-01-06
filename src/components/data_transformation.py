@@ -39,7 +39,7 @@ class datatranformation_preprocess:
             cat_pipeline=Pipeline(
                 steps=[
                     ('imputer',SimpleImputer(strategy="most_frequent")),
-                    ('onehot',OneHotEncoder()),
+                    ('onehot',OneHotEncoder(handle_unknown='ignore')),
                     ('scaler',StandardScaler(with_mean=False))
                     ]
                 )

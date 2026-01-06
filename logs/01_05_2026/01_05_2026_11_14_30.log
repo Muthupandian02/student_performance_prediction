@@ -1,0 +1,11 @@
+[2026-01-05 11:14:31,696] line: 97 _internal.py  - WARNING -  * Debugger is active!
+[2026-01-05 11:14:31,703] line: 97 _internal.py  - INFO -  * Debugger PIN: 337-079-855
+[2026-01-05 11:14:38,234] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:14:38] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2026-01-05 11:14:38,339] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:14:38] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-01-05 11:14:38,352] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:14:38] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-01-05 11:14:38,373] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:14:38] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=mi4uicotiWvdkfDaGQMZ HTTP/1.1" 200 -
+[2026-01-05 11:16:03,181] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:16:03] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2026-01-05 11:16:03,199] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:16:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2026-01-05 11:16:03,234] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:16:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2026-01-05 11:16:03,275] line: 97 _internal.py  - INFO - 127.0.0.1 - - [05/Jan/2026 11:16:03] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=mi4uicotiWvdkfDaGQMZ HTTP/1.1[0m" 304 -
+[2026-01-05 11:17:56,180] line: 97 _internal.py  - INFO -  * Detected change in 'D:\\Mlops\\src\\components\\data_transformation.py', reloading

@@ -3,12 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Students Preformance prediction</title>
 </head>
-<body>
+<body style="background-color: #00000018;">
     <h1>Students Preformance prediction</h1>
-    <form> action="{{url_for(/prediction)}}" method='post'</form>
-    <h1>let's start the prediction</h1>
-    <label>Gender</label>
+
+    <form action="{{url_for('prediction')}}" method='post'><br>
+        <h2><legend style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;">Let's start the prediction </legend></h2><br>
+        <div>
+            
+            <label for="gender">Select the Gender :</label>
+            <select id='gender' name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="race_or_ethnicity">SelectRace or Ethnicity:</label>
+            <select id='race_or_ethnicity' name="race_or_ethnicity" required>
+                <option value="group A">Group A</option>
+                <option value="group B">Group B</option>
+                <option value="group C">Group C</option>
+                <option value="group D">Group D</option>
+            </select>
+        </div><br>
+        <div>
+            
+            <label for="parental_level_of_education">Select Parental Level of Education :</label>
+            <select id='parental_level_of_education' name="parental_level_of_education" required>
+                <option value="bachelor's degree">Bachelor's degree</option>
+                <option value="some college">Some college</option>
+                <option value="master's degree">Master's degree</option>
+                <option value="associate's degree">Associate's degree</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="lunch">Select the Lunch type :</label>
+            <select id="lunch" name="lunch" required>
+                <option value="standard">Standard</option>
+                <option value="free/reduced">Free or Reduced</option>
+            </select>
+
+        </div><br>
+        <div>
+            <label for="test_preparation_course">Select the Test Preparation Course  :</label>
+            <select id='test_preparation_course' name="test_preparation_course" required>
+                <option value="none">None</option>
+                <option value="completed">ompleted</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="reading_score">Enter the Reading score  :</label>
+            <input type="number" id="reading_score" name="reading_score" placeholder="0-100" min='0' max='100' required>
+        </div><br>
+        <div>
+            <label for="writing_score">Enter the Writing score  :</label>
+            <input type="number" id="writing_score" name="writing_score" placeholder="0-100"  min='0' max='100' required>
+        </div><br>
+        <div>
+            <input type="submit" value="Predict your Math score" style="background-color: rgba(24, 190, 38, 0.644);">
+        </div>
+    </form>
+    <h2> The predicted Math score is {{result}}</h2>
 </body>
 </html>
