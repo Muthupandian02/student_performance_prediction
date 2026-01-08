@@ -55,7 +55,7 @@ muthupandian02-student_performance_prediction/
      - `/home` → input form (`index.html`).  
      - `/predictdata` → runs prediction, displays result (`home.html`).  
    - User fills form → pipeline predicts → result shown in browser.  
- Open your browser at **http://127.0.0.1:5000/home**.
+ Open your browser at **http://127.0.0.1:5000/predictdata**.
 
  Dataset
 - **Source:** `data/StudentsPerformance.csv`  
@@ -76,3 +76,4 @@ muthupandian02-student_performance_prediction/
 - 📧 Email: muthupandiansuresh2003@gmail.com  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/muthupandian-s-aa3b48239)  
 - 💻 [GitHub](https://github.com/Muthupandian02)
+
